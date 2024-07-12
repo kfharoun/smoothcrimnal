@@ -9,7 +9,8 @@ bot = commands.Bot(command_prefix=">", intents=intents)
 async def main():
     async with bot:
         await bot.add_cog(Ping(bot))
-        await bot.start("MTI2MTM4OTAyMTkzMDU5MDM3MQ.GEjaT9.fP_P5UWhVLHnFIQkwpfSU4Mapzvxcb6xZqLsnc")
+        # await bot.start("discord_token")
+        #github wont let me push this without this uncommented out
         # taken from discord developers / bot /token
 
 asyncio.run(main())
